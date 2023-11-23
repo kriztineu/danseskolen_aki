@@ -1,14 +1,42 @@
-
-
+<header>
+<div class="logo">
+    <img src="../svg/logo.svg" alt="Logo">
 <div class="header-text">
 <ul>
     <li>UNDERVISERE</li>
     <li>WORKSHOPS</li>
     <li>SKEMA</li>
 </ul>
+
+<div class="burger-menu">
+    <div class="line"></div>
+    <div class="line"></div>
 </div>
+</div>
+ </div> 
+
+</header>
+
 
  <style>
+.burger-menu {
+  width: 40px;
+  height: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1em;
+  margin-left: 6em;
+}
+
+.line {
+  width: 100%;
+  height: 4px;
+  background-color: var(--yellow);
+}
+
 .header-text {
   display: flex;
   list-style: none; 
@@ -22,9 +50,13 @@
 }
 
 .header-text li {
-  margin-right: 10px; 
+  margin-right: 20px; 
   list-style-type: none;
-  margin-left: 10em;
+  margin-left: 7em;
 }
 
+.logo {
+    margin-top: 1em;
+    margin-left: 1em;
+}
 </style>
