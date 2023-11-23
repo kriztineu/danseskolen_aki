@@ -1,0 +1,26 @@
+---
+const { data } = Astro.props;
+---
+
+<button>
+    <p>{data}</p>
+</button>
+
+<style>
+    button {
+        background-color: var(--black);
+        width: 291px;
+        height: 58px;
+        flex-shrink: 0;
+        border-radius: var(--cta-btn-border-radius, 35px);
+        border: none;
+        outline: none;
+    }
+
+    p {
+        color: var(--white);
+        font-size: medium;
+        font-weight: 600;
+    }
+    
+</style>
