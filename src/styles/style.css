@@ -13,7 +13,7 @@ body {
 h1 {
   color: var(--yellow);
   font-family: Dansestudiet Simple;
-  font-size: 70px;
+  font-size: 11rem;
   font-style: normal;
   font-weight: 700;
 }
