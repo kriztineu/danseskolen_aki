@@ -1,11 +1,19 @@
 * {
-  --primary: #f1412b;
-  --secondary: #dbff01;
+  --yellow: #f5fd53;
+  --white: #ffffff;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: var(--primary);
+  background-color: var(--white);
+}
+
+h1 {
+  color: var(--yellow);
+  font-family: Dansestudiet Simple;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
 }
