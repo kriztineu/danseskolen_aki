@@ -28,13 +28,16 @@
         </div>
         <div>
             <h2>Kommende begivenheder</h2>
-            <ul>
-                <li>Stabilitetstræning & Stræk</li>
-                <li>Mandag kl. 08:30 - 09:30</li>
-            </ul>
-            <ul>
-                <li>Street Dance Teens</li>
-                <li>Mandag kl. 16:00 - 17:00</li>
+            <ul class="begivenheder">
+                <div class="boks">
+                    <li><strong>Stabilitetstræning & Stræk</strong></li>
+                    <li>Mandag kl. 08:30 - 09:30</li>
+                </div>
+                <div class="boks">
+                    <li><strong>Street Dance Teens</strong></li>
+                    <li>Mandag kl. 16:00 - 17:00</li>
+                </div>
+                
             </ul>
         </div>
     </section>
@@ -51,11 +54,25 @@
 </footer>
 
 <style>
+    .boks {
+        padding: 0.5rem;
+        border: 1px solid black;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        padding-bottom: 1rem;
+        font-weight: 200;
+    }
+    .begivenheder {
+        
+    }
     .info {
         background-color: var(--white);
         display: flex;
         justify-content: space-around;
         padding: 5rem;
+        font-weight: 200;
     }
 
     .info ul {
