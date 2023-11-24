@@ -15,6 +15,7 @@ const { data } = Astro.props;
         border-radius: var(--cta-btn-border-radius, 35px);
         border: none;
         outline: none;
+        cursor: pointer;
     }
 
     p {
@@ -22,5 +23,14 @@ const { data } = Astro.props;
         font-size: medium;
         font-weight: 600;
     }
-    
+
+    button:hover {
+        background-color: rgba(255, 255, 0, 0);
+        border: 2px solid black;
+    }
+
+    button:hover p {
+        color: var(--black);
+    }
+
 </style>

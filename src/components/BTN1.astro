@@ -10,11 +10,12 @@ const { data } = Astro.props;
     button {
         background-color: var(--yellow);
         width: 170px;
-            height: 67px;
-            flex-shrink: 0;
+        height: 67px;
+        flex-shrink: 0;
         border-radius: var(--cta-btn-border-radius, 35px);
         border: none;
         outline: none;
+        cursor: pointer;
     }
 
     p {
@@ -23,6 +24,12 @@ const { data } = Astro.props;
         font-weight: 600;
     }
 
-    button: hover;
+    button:hover {
+        background-color: var(--black);
+    }
+
+    button:hover p {
+        color: var(--white);
+    }
     
 </style>
