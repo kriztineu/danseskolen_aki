@@ -1,0 +1,35 @@
+---
+import BTN2 from "./BTN2.astro";
+---
+<section class="wsCards">
+    <div class="WS1">
+        <img src="../img/WS1.png" alt="">
+        <BTN2 data="LÆS MERE"/>
+    </div>
+    <div class="WS2">
+        <img src="../img/WS2.png" alt="">
+        <BTN2 data="LÆS MERE"/>
+    </div>
+</section>
+
+<style>
+    .wsCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: 4rem;
+        }
+
+        .wsCards > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    img {
+        padding-bottom: 3rem;
+    }
+</style>
