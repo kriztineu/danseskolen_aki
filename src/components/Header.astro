@@ -1,16 +1,15 @@
 <header>
-<div class="logo">
+
+<ul class="header">
     <img src="../svg/logo.svg" alt="Logo">
-<div class="header-text">
-<ul>
+    <div class="menu">
     <li>UNDERVISERE</li>
     <li>WORKSHOPS</li>
     <li>SKEMA</li>
-</ul>
-
 <div class="burger-menu">
     <div class="line"></div>
     <div class="line"></div>
+</ul>
 </div>
 </div>
  </div> 
@@ -27,8 +26,7 @@
   justify-content: flex-end;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 1em;
-  margin-left: 6em;
+  margin-left: 5em;
 }
 
 .line {
@@ -37,26 +35,26 @@
   background-color: var(--yellow);
 }
 
-.header-text {
-  display: flex;
-  list-style: none; 
-  padding: 0; 
-  list-style-type: none;
-  justify-content: flex-end;
+li {
+    margin-left: 5em;
 }
 
-.header-text ul {
-  display: flex;
+.menu {
+    display: flex;
+    margin-left: 45rem;
+    margin-top: 1em;
 }
 
-.header-text li {
-  margin-right: 20px; 
-  list-style-type: none;
-  margin-left: 7em;
-}
-
-.logo {
+.header {
     margin-top: 1em;
     margin-left: 1em;
+    display: flex;
+    list-style-type: none;
+}
+
+img {
+    display: flex;
+    justify-content: flex-start;
+
 }
 </style>
